@@ -41,7 +41,7 @@ function App() {
           Upload your paper here:
         </p>
 
-        <input type='file' id='fileInput'></input>
+        <input type='file' id='fileInput' onChange={upload}></input>
         <br></br>
         <button id='uploadButton'>Upload</button>
         {/* 1. add upload function
